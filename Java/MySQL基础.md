@@ -150,3 +150,6 @@ MVCC 可以看作是行级锁的一个升级，可以有效减少加锁操作，
 ```md
 InnoDB 支持事务，MyISAM 不支持事务；InnoDB 支持外键，而 MyISAM 不支持；InnoDB 是聚集索引，MyISAM 是非聚集索引；InnoDB 最小的锁粒度是行锁，MyISAM 最小的锁粒度是表锁；InnoDB不保存表的具体行数，执行select count(*) from table时需要全表扫描。而MyISAM用一个变量保存了整个表的行数，执行上述语句时只需要读出该变量即可，速度很快（注意不能加有任何WHERE条件）；InnoDB支持数据库异常崩溃后的安全恢复
 ```
+
+
+

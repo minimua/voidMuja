@@ -7,4 +7,4 @@
 
 
 [GitHub](https://github.com/minimua/)
-[Get Started](Java/)
+[Get Started](Java/README.md)
